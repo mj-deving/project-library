@@ -2,9 +2,13 @@
 
 > One person. One harness. 25 projects.
 
+[![Projects](https://img.shields.io/badge/projects-25-teal)](https://github.com/mj-deving/project-library) [![Tests](https://img.shields.io/badge/tests-3%2C900%2B-green)](https://github.com/mj-deving/project-library) [![npm](https://img.shields.io/badge/npm_packages-3-red)](https://www.npmjs.com/~mj-deving) [![TypeScript](https://img.shields.io/badge/primary-TypeScript-blue)](https://github.com/mj-deving)
+
 This is the curated index of everything I've built — structured for adoption, not just browsing. Each project includes what it does, how to use it, and why the architecture works the way it does.
 
 **Builder:** [Marius Jauernik](https://github.com/mj-deving) — AI & Fullstack Engineer, building PAI (Personal AI Infrastructure)
+
+**Detailed cards:** See [PROJECTS.md](PROJECTS.md) for 10 flagship deep-dives with architecture decisions and adoption guides.
 
 ---
 
@@ -14,11 +18,11 @@ Production-grade n8n workflows proving that code-first AI automation cuts token 
 
 | Project | What it does | Stack | Key Metric |
 |---------|-------------|-------|------------|
-| [n8n-speed-to-lead](https://github.com/mj-deving/n8n-speed-to-lead) | AI lead qualification in <30s | n8n, Claude, Slack, Sheets | $0.001/lead |
-| [n8n-meeting-intelligence](https://github.com/mj-deving/n8n-meeting-intelligence) | Recording to protocol + action items | n8n, Whisper, Claude | 19s processing |
-| [n8n-email-triage](https://github.com/mj-deving/n8n-email-triage) | 7-category email classification | n8n, IMAP, Claude, Slack | 11/11 tests |
-| [n8n-self-healing](https://github.com/mj-deving/n8n-self-healing) | Workflow learns from failures | n8n, Claude, Slack | 0 tokens on 4th error |
-| [n8n-autopilot](https://github.com/mj-deving/n8n-autopilot) | 6 AI workflows, fully code-first | n8nac, Gemini | Origin project |
+| [n8n-speed-to-lead](https://github.com/mj-deving/n8n-speed-to-lead) | AI lead qualification in <30s | ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) ![Claude](https://img.shields.io/badge/-Claude-D4A574?style=flat-square) | $0.001/lead |
+| [n8n-meeting-intelligence](https://github.com/mj-deving/n8n-meeting-intelligence) | Recording to protocol + action items | ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) ![Whisper](https://img.shields.io/badge/-Whisper-74AA9C?style=flat-square) | 19s processing |
+| [n8n-email-triage](https://github.com/mj-deving/n8n-email-triage) | 7-category email classification | ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) ![Claude](https://img.shields.io/badge/-Claude-D4A574?style=flat-square) | 11/11 tests |
+| [n8n-self-healing](https://github.com/mj-deving/n8n-self-healing) | Workflow learns from failures | ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) | 0 tokens on 4th error |
+| [n8n-autopilot](https://github.com/mj-deving/n8n-autopilot) | 6 AI workflows, fully code-first | ![n8nac](https://img.shields.io/badge/-n8nac-EA4B71?style=flat-square) ![Gemini](https://img.shields.io/badge/-Gemini-4285F4?style=flat-square) | Origin project |
 
 **Adopt:** Clone [n8n-project-template](https://github.com/mj-deving/n8n-project-template) to start your own code-first n8n project with n8nac + code-mode + Beads.
 
@@ -58,12 +62,12 @@ Progressive agent architectures — from single-agent to multi-agent orchestrati
 
 | Project | What it does | Stack | Key Metric |
 |---------|-------------|-------|------------|
-| [managed-agents-research](https://github.com/mj-deving/managed-agents-research) | 5 progressive agent demos | Claude Agent SDK, Python | 42 tests, $0.42-$1.97/run |
-| [langgraph-agent](https://github.com/mj-deving/langgraph-agent) | State machine: plan, research, write, review | LangGraph, FastAPI, Tavily | 16 tests, SSE |
-| [crewai-n8n-bridge](https://github.com/mj-deving/crewai-n8n-bridge) | 5 multi-agent crews as REST API | CrewAI, FastAPI, Docker | 54 tests, SSE |
-| [voice-agent](https://github.com/mj-deving/voice-agent) | AI phone agent for medical practices | FastAPI, Vapi, Fly.io | 156 tests |
-| [rag-hybrid-chatbot](https://github.com/mj-deving/rag-hybrid-chatbot) | Hybrid RAG: Vector + Knowledge Graph + CRAG | Qdrant, NetworkX, Python | 61 tests |
-| [agent-playground](https://github.com/mj-deving/agent-playground) | Interactive chat UI for research agents | Next.js 14, SSE | Live demo |
+| [managed-agents-research](https://github.com/mj-deving/managed-agents-research) | 5 progressive agent demos | ![Claude SDK](https://img.shields.io/badge/-Claude_SDK-D4A574?style=flat-square) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square) | 42 tests |
+| [langgraph-agent](https://github.com/mj-deving/langgraph-agent) | State machine: plan, research, write, review | ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square) | 16 tests, SSE |
+| [crewai-n8n-bridge](https://github.com/mj-deving/crewai-n8n-bridge) | 5 multi-agent crews as REST API | ![CrewAI](https://img.shields.io/badge/-CrewAI-FF6B35?style=flat-square) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square) | 54 tests, SSE |
+| [voice-agent](https://github.com/mj-deving/voice-agent) | AI phone agent for medical practices | ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square) ![Vapi](https://img.shields.io/badge/-Vapi-7C3AED?style=flat-square) | 156 tests |
+| [rag-hybrid-chatbot](https://github.com/mj-deving/rag-hybrid-chatbot) | Hybrid RAG: Vector + Knowledge Graph + CRAG | ![Qdrant](https://img.shields.io/badge/-Qdrant-DC382D?style=flat-square) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square) | 61 tests |
+| [agent-playground](https://github.com/mj-deving/agent-playground) | Interactive chat UI for research agents | ![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square) ![SSE](https://img.shields.io/badge/-SSE-4CAF50?style=flat-square) | Live demo |
 
 **Adopt:** Start with `managed-agents-research` for agent patterns, `crewai-n8n-bridge` if you need n8n integration.
 
