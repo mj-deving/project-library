@@ -32,12 +32,12 @@ Production-grade n8n workflows proving that code-first AI automation cuts token 
 
 The thesis: replace n8n's AI Agent node with direct code execution. Proven 96% token savings.
 
-| Project | What it does | Downloads |
-|---------|-------------|-----------|
-| [n8n-nodes-utcp-codemode](https://github.com/mj-deving/n8n-nodes-utcp-codemode) | n8n community node for code-mode | npm |
-| [code-mode-tools](https://github.com/mj-deving/code-mode-tools) | CLI + MCP server for code-mode sandbox | npm |
-| [n8nac-tools](https://github.com/mj-deving/n8nac-tools) | CLI wrapper for n8nac commands | npm |
-| [code-first-n8n](https://github.com/mj-deving/code-first-n8n) | 5 POC workflows, the proving ground | Benchmarked |
+| Project | What it does | Stack | Downloads |
+|---------|-------------|-------|-----------|
+| [n8n-nodes-utcp-codemode](https://github.com/mj-deving/n8n-nodes-utcp-codemode) | n8n community node for code-mode | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) | 1,422/mo |
+| [code-mode-tools](https://github.com/mj-deving/code-mode-tools) | CLI + MCP server for code-mode sandbox | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![MCP](https://img.shields.io/badge/-MCP-8B5CF6?style=flat-square) | npm |
+| [n8nac-tools](https://github.com/mj-deving/n8nac-tools) | CLI wrapper for n8nac commands | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![CLI](https://img.shields.io/badge/-CLI-333?style=flat-square) | npm |
+| [code-first-n8n](https://github.com/mj-deving/code-first-n8n) | 5 POC workflows, the proving ground | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) | Benchmarked |
 
 **Adopt:** `npm install -g code-mode-tools` to get the CLI + MCP server. Use with any n8n instance.
 
@@ -49,8 +49,8 @@ Real-world applications built on the code-mode foundation, each with measured be
 
 | Project | What it does | Stack | Token Savings |
 |---------|-------------|-------|--------------|
-| [rag-pipeline-factory](https://github.com/mj-deving/rag-pipeline-factory) | Tell it what you want, get a deployed RAG pipeline | n8n, TypeScript | 56% |
-| [soc-alert-triage](https://github.com/mj-deving/soc-alert-triage) | Parallel threat intel enrichment | Shodan, MITRE, VT, AbuseIPDB | 86% |
+| [rag-pipeline-factory](https://github.com/mj-deving/rag-pipeline-factory) | Tell it what you want, get a deployed RAG pipeline | ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) | 56% |
+| [soc-alert-triage](https://github.com/mj-deving/soc-alert-triage) | Parallel threat intel enrichment | ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square) ![Security](https://img.shields.io/badge/-Security-DC3545?style=flat-square) | 86% |
 
 **Adopt:** Fork and customize the enrichment sources for your domain (HR, finance, compliance).
 
@@ -77,30 +77,30 @@ Progressive agent architectures — from single-agent to multi-agent orchestrati
 
 Systems that other projects depend on.
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [omniweb-agents](https://github.com/mj-deving/omniweb-agents) | Autonomous agent framework — SENSE/ACT/CONFIRM | TypeScript, 67K LOC, 3,249 tests |
-| [my-pai-cloud-solution](https://github.com/mj-deving/my-pai-cloud-solution) | Cloud deployment platform for PAI agents | TypeScript, 412 tests |
-| [cortex](https://github.com/mj-deving/cortex) | AI knowledge ingestion (Scout/Comb/Waggle) | TypeScript, Cloudflare Workers |
-| [claudeclaw](https://github.com/mj-deving/claudeclaw) | PAI mobile surface — Telegram bot | Claude Agent SDK, grammY |
+| Project | What it does | Stack | Key Metric |
+|---------|-------------|-------|------------|
+| [omniweb-agents](https://github.com/mj-deving/omniweb-agents) | Autonomous agent framework — SENSE/ACT/CONFIRM | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![Node](https://img.shields.io/badge/-Node.js-339933?style=flat-square) | 67K LOC, 3,249 tests |
+| [my-pai-cloud-solution](https://github.com/mj-deving/my-pai-cloud-solution) | Cloud deployment platform for PAI agents | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![CF](https://img.shields.io/badge/-Cloudflare-F38020?style=flat-square) | 412 tests |
+| [cortex](https://github.com/mj-deving/cortex) | AI knowledge ingestion (Scout/Comb/Waggle) | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![CF Workers](https://img.shields.io/badge/-CF_Workers-F38020?style=flat-square) | D1, R2 |
+| [claudeclaw](https://github.com/mj-deving/claudeclaw) | PAI mobile surface — Telegram bot | ![Claude SDK](https://img.shields.io/badge/-Claude_SDK-D4A574?style=flat-square) ![grammY](https://img.shields.io/badge/-grammY-26A5E4?style=flat-square) | Live on TG |
 
 ---
 
 ## Security & Operations
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [openclaw-hardened](https://github.com/mj-deving/openclaw-hardened) | Security-first OpenClaw deployment | Shell, 15-phase guide |
-| [agentskills](https://github.com/mj-deving/agentskills) | Agent Skills spec + SuperColony contribution | Python, 2,159 LOC |
+| Project | What it does | Stack | Key Metric |
+|---------|-------------|-------|------------|
+| [openclaw-hardened](https://github.com/mj-deving/openclaw-hardened) | Security-first OpenClaw deployment | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square) ![Security](https://img.shields.io/badge/-Security-DC3545?style=flat-square) | 15-phase guide |
+| [agentskills](https://github.com/mj-deving/agentskills) | Agent Skills spec + SuperColony contribution | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square) ![Demos](https://img.shields.io/badge/-Demos-FFD700?style=flat-square) | 2,159 LOC |
 
 ---
 
 ## Tools & Utilities
 
-| Project | What it does | Stack |
-|---------|-------------|-------|
-| [markdown-reader](https://github.com/mj-deving/markdown-reader) | CLI: markdown to beautiful HTML reading view | TypeScript |
-| [arcade-hub](https://github.com/mj-deving/arcade-hub) | Real-time arcade machine monitoring | Spring Boot, WebSocket, PostgreSQL |
+| Project | What it does | Stack | Key Metric |
+|---------|-------------|-------|------------|
+| [markdown-reader](https://github.com/mj-deving/markdown-reader) | CLI: markdown to beautiful HTML reading view | ![TS](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square) ![CLI](https://img.shields.io/badge/-CLI-333?style=flat-square) | Bun runtime |
+| [arcade-hub](https://github.com/mj-deving/arcade-hub) | Real-time arcade machine monitoring | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square) ![Spring](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square) | WebSocket, PG |
 
 ---
 
