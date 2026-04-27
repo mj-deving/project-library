@@ -3,6 +3,8 @@
 > Detailed cards with architecture decisions and adoption guides.
 > For the full index of all 25 projects, see [INDEX.md](INDEX.md).
 
+> **Narrativ:** v6.1 — Fullstack + alle Projekte · Stand 2026-04-14 · See [Portfolio-Narrativ.md](https://github.com/mj-deving/KI-Roadmap/blob/main/Roadmap/Portfolio-Narrativ.md)
+
 ---
 
 ### [Speed-to-Lead Autopilot](https://github.com/mj-deving/n8n-speed-to-lead)

@@ -10,6 +10,8 @@ This is the curated index of everything I've built — structured for adoption, 
 
 **Detailed cards:** See [PROJECTS.md](PROJECTS.md) for 10 flagship deep-dives with architecture decisions and adoption guides.
 
+> **Narrativ:** v6.1 — Fullstack + alle Projekte · Stand 2026-04-14 · See [Portfolio-Narrativ.md](https://github.com/mj-deving/KI-Roadmap/blob/main/Roadmap/Portfolio-Narrativ.md)
+
 ---
 
 ## n8n Automation & Code-Mode
